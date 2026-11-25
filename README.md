@@ -6,7 +6,7 @@ Bu depo, bir insanın (kod bilse de bilmese de) bir Yapay Zeka (AI) ile çalış
 AI modelleri (Claude, GPT, Gemini, vb.) güçlüdür ancak "halüsinasyon" görürler veya detayları atlarlar. Bu depo, AI'nın sizi değil, sizin AI'yı yönetmeniz için gereken **disiplini ve metodolojiyi** sağlar.
 
 ## 📂 Sistem Mimarisi (Neler Var?)
-Sistem, AI'nın davranışlarını yöneten 11 kritik modülden oluşur:
+Sistem, AI'nın davranışlarını yöneten 12 kritik modülden oluşur:
 
 1.  **📜 `CONSTITUTION.md` (Sistem Anayasası):** AI'nın asla çiğneyemeyeceği temel yasalar.
 2.  **🔄 `WORKFLOW.md` (İş Akışı):** "Talebden Teslimata" kadar olan zorunlu üretim bandı.
@@ -18,7 +18,8 @@ Sistem, AI'nın davranışlarını yöneten 11 kritik modülden oluşur:
 8.  **✅ `KONTROL_LISTESI.md` (Nihai Kontrol):** "Bitti" demeden önce işaretlenmesi zorunlu teslimat listesi.
 9.  **🔑 `.env.example` + `.gitignore`:** Sır (şifre/anahtar) sızıntısını önleyen güvenlik şablonu.
 10. **📄 `LICENSE.md`:** Herkesin ücretsiz kullanabilmesi için MIT lisansı.
-11. **📖 `README.md` (Klavuz):** Sistemin genel haritası.
+11. **📱 `PLATFORM_REHBERI.md` (Platform Rehberi):** Android / iOS / Windows / Web farkları, iOS/macOS zorunluluğu ve platforma göre kanıt üretimi.
+12. **📖 `README.md` (Klavuz):** Sistemin genel haritası.
 
 ## 🛠️ Nasıl Kullanılır?
 Bu depoyu klonladıktan veya içeriğini kopyaladıktan sonra, kullandığınız AI'ya şu komutu verin:

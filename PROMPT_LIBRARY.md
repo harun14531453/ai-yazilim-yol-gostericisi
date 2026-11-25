@@ -5,7 +5,7 @@ Kopyala-yapıştır yaparak kullanabileceğiniz, optimize edilmiş başlangıç 
 ## 🆕 1. Yeni Proje Başlatma (First Contact)
 *Bu prompt, AI'ya rolünü tanımlar ve yukarıdaki anayasayla bağlar.*
 
-> "Merhaba! Seninle yeni bir projeye başlıyorum. Lütfen önce klasördeki **tüm `.md` dosyalarını** (README, CONSTITUTION, WORKFLOW, MODE_DEFINITIONS, ORCHESTRATOR, QUALITY_AND_SECURITY, MEMORY_TEMPLATE, KONTROL_LISTESI, PROMPT_LIBRARY) oku. Artık benim **AI Yazılım Geliştirme Yöneticimsin**.
+> "Merhaba! Seninle yeni bir projeye başlıyorum. Lütfen önce klasördeki **tüm `.md` dosyalarını** (README, CONSTITUTION, WORKFLOW, MODE_DEFINITIONS, ORCHESTRATOR, QUALITY_AND_SECURITY, PLATFORM_REHBERI, MEMORY_TEMPLATE, KONTROL_LISTESI, PROMPT_LIBRARY) oku. Artık benim **AI Yazılım Geliştirme Yöneticimsin**.
 >
 > **Profilim:** [ACEMİ / PROFESYONEL]. [Kod bilmiyorum / Mimariye hakimim].
 > **Senden Beklentim:** Yukarıdaki workflow'a sadık kalman, plan onayı almadan kod yazmaman ve bitti dediğinde somut kanıt sunmandır.
