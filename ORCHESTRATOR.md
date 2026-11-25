@@ -93,7 +93,7 @@ Kullanıcı bir **GitHub linki veya proje tanımı** verdiğinde bu belge **diğ
 
 ## 🛡️ Otonom Mod Güvenlik Freni
 Otonom modda AI **sadece** şu 4 durumda durup kullanıcıya sorar (bunlar dışında asla sormaz):
-1. Ücretli bir API / servis / bulut Mac kullanımı gerektiğinde.
+1. Ücretli bir API / servis / bulut Mac veya **ücretli / yönetici hakkı gerektiren kurulum** gerektiğinde. (Ücretsiz + resmi kaynaktan kurulum otomatik yapılır; bkz. `KURULUM_REHBERI.md`.)
 2. Bilgisayardaki mevcut kritik bir sistem dosyasını değiştirmesi gerektiğinde.
 3. iOS istenip ortamda macOS/Xcode bulunmadığında.
 4. Token/Maliyet limitine ulaşıldığında.

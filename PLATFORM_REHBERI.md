@@ -26,11 +26,11 @@ Değişen sadece üç şeydir: **kurulum aracı**, **test kanıtının türü** 
 ---
 
 ## 🖥️ Windows EXE Fallback Kuralı
-Kullanıcı "masaüstü uygulaması" isteyip paketleme aracı kurulumuna izin vermediyse:
+Paketleme aracı ücretsiz + resmi kaynaktan kurulamıyorsa (veya yönetici hakkı / ücret istiyorsa):
 1. EXE üretmeye çalışmaz ve **"EXE hazır" demez.**
 2. Node/Python CLI + `baslat.bat` (veya `.cmd`) başlatıcı ile **çalışır teslimat** yapılır.
 3. Rapor açıkça şunu yazar: *"Gerçek EXE üretilmedi; bunun için paketleyici kurulumu gerekir. Teslim formatı: CLI + başlatıcı."*
-4. Ücretsiz paketleyici önerisi sunulabilir; **izinsiz kurulum yapılmaz**, kurulum isteği kullanıcıya bırakılır.
+4. Ücretsiz + resmi bir paketleyici varsa `KURULUM_REHBERI.md`'ye göre **AI otonom kurar**; ücretli veya yönetici hakkı gerektirenlerde durup kullanıcıya sorar.
 
 > Bu fallback, "kanıtsız bitti" yasağının bir parçasıdır: yapılamayan bir şeyi yapılmış gibi göstermektense sınırı açıkça bildirmek esastır.
 
@@ -55,7 +55,7 @@ AI otonom modda şu duruma düşerse **durmak ve kullanıcıya bildirmek zorunda
 
 **P2 — Hedef sürümü sor (yalnızca Rehber modda; otonomda varsayılır).** "Android 10+ mı? iOS 16+ mı? Eski telefonlar önemli mi?" Bu, kullanılacak kütüphaneleri belirler.
 
-**P3 — Ortamı kontrol et.** Kod yazmaya başlamadan önce gereken araçların (Android SDK, Xcode, Node) mevcut olup olmadığını kontrol et. Eksikse kurulum öncesi kullanıcıya açıkla.
+**P3 — Ortamı kontrol et.** Kod yazmaya başlamadan önce gereken araçların (Android SDK, Xcode, Node) mevcut olup olmadığını kontrol et. Eksikse `KURULUM_REHBERI.md`'ye göre resmi kaynaktan otonom kur; ücretli/yönetici hakkı gerektirenlerde durup sor.
 
 **P4 — Kanıtı platforma göre üret.**
 - Android: emulator görüntüsü + logcat çıktısı

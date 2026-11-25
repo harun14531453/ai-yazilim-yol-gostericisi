@@ -20,6 +20,14 @@ Bir talebin gelişiyle, teslimatı arasındaki zorunlu döngüdür. Adımlar atl
 - Potansiyel riskler nelerdir?
 - **ÇIKTI:** Onaya sunulan madde madde uygulama planı.
 
+### 2B. Ortam Hazırlığı (Provisioning)
+- Gerekli araçlar ve sürümler tespit edilir (bkz. `KURULUM_REHBERI.md`).
+- Zaten kurulu olanlar sürüm komutuyla doğrulanır, **tekrar kurulmaz**.
+- Eksik olanlar **ücretsiz + resmi kaynaktan otonom kurulur**; kurulum sonrası sürüm çıktısı alınır.
+- Ücretli veya yönetici hakkı gerektiren kurulumlarda durulur, kullanıcıya sorulur.
+- Kurulanlar `INSTALL.md` ve `CLAUDE.md`'ye yazılır; kaldırma komutu da belirtilir.
+- **ÇIKTI:** Sürüm çıktıları + kurulum listesi.
+
 ### 3. Uygulama (Build Phase)
 - Plan onaylandığında AI işe başlar. **(Otonom modda plan AI tarafından kendi içinde onaylanır; kullanıcıya sorulmaz.)**
 - Değişiklikler küçük parçalar halinde yapılır.

@@ -24,6 +24,14 @@ AI bir işi "bitti" diye teslim etmeden önce bu listedeki her maddenin işaretl
 - [ ] Kod okunabilir, anlamlı isimlendirme ve yorum satırları mevcut.
 - [ ] Tek dosyaya yığılmış spagetti kod yok, modüler yapı var.
 
+## ⚙️ Kurulum ve Kaynak
+- [ ] Gerekli araçlar ve sürümler tespit edildi.
+- [ ] Zaten kurulu olanlar doğrulandı, tekrar kurulmadı.
+- [ ] Eksikler ücretsiz + resmi kaynaktan kuruldu, sürüm çıktısı alındı.
+- [ ] Ücretli / yönetici hakkı gerektiren kurulumlar için kullanıcıya soruldu.
+- [ ] Kurulum listesi + kaldırma komutu `INSTALL.md`'ye yazıldı.
+- [ ] `CLAUDE.md`'de "Kurulu araçlar ve sürümleri" bölümü güncellendi.
+
 ## 🧪 Doğrulama Kanıtı
 - [ ] Program gerçekten çalıştırıldı ve çıktı logu paylaşıldı.
 - [ ] İstenen özellikler tek tek test edildi.

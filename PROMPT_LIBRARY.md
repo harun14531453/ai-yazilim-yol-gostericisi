@@ -10,7 +10,7 @@ Kopyala-yapıştır yaparak kullanabileceğiniz, optimize edilmiş başlangıç 
 > **Profilim:** [ACEMİ / PROFESYONEL]. [Kod bilmiyorum / Mimariye hakimim].
 > **Senden Beklentim:** Yukarıdaki workflow'a sadık kalman ve bitti dediğinde somut kanıt sunmandır.
 >
-> **Mod: Otonom.** Sana bir link veya proje tanımı verdiğimde mod sorma, onay isteme, "devam edeyim mi?" deme. Varsayılan olarak otonom çalış. Sadece ücretli servis, kritik sistem dosyası, iOS/macOS sorunu veya limit durumunda durup sor; geri kalan her şeyi kendi başına yap ve bitince kanıtlarıyla raporla.
+> **Mod: Otonom.** Sana bir link veya proje tanımı verdiğimde mod sorma, onay isteme, "devam edeyim mi?" deme. Varsayılan olarak otonom çalış. Sadece ücretli servis, kritik sistem dosyası, iOS/macOS sorunu veya limit durumunda durup sor; geri kalan her şeyi kendi başına yap ve bitince kanıtlarıyla raporla. Gerekli programları sen seç, ücretsiz ve resmi kaynaktan sen kur, sürümü doğrula ve rapora yaz.
 >
 > Hazırsan, sana linki vereceğim."
 
@@ -21,7 +21,7 @@ Kopyala-yapıştır yaparak kullanabileceğiniz, optimize edilmiş başlangıç 
 >
 > (veya: *şu projeyi **Windows masaüstü için** hazırla*)
 >
-> Beni rahatsız etme, mod sorma, onay isteme. Mevcut iş mantığını koru, arayüzü hedef platforma uyarla, bozuksa önce onar, gerçekten test et, kanıt sun, kaydet ve tek raporla teslim et. Neyi koruduğunu, neyi değiştirdiğini yaz."
+> Beni rahatsız etme, mod sorma, onay isteme. Mevcut iş mantığını koru, arayüzü hedef platforma uyarla, bozuksa önce onar, gerçekten test et, kanıt sun, kaydet ve tek raporla teslim et. Neyi koruduğunu, neyi değiştirdiğini yaz. Gerekli araçları sen seç, resmi kaynaktan sen kur."
 
 ## 🌱 2B. Sıfırdan Proje (Greenfield)
 *Hiçbir depo yok, boş bir klasörden başlanacak.*
@@ -30,7 +30,7 @@ Kopyala-yapıştır yaparak kullanabileceğiniz, optimize edilmiş başlangıç 
 >
 > Hedef platform: **[Android / Windows masaüstü / Web / iOS]** (belirtmezsen sen seç, gerekçesini yaz).
 >
-> Beni rahatsız etme, mod sorma, onay isteme. Boş klasörden iskeleti kur, Git başlat, çalışır hale getir, gerçekten test et, kanıt sun, hafıza dosyasını oluştur ve bitince tek raporla teslim et. Test edemediğin şeyleri açıkça belirt."
+> Beni rahatsız etme, mod sorma, onay isteme. Boş klasörden iskeleti kur, Git başlat, çalışır hale getir, gerçekten test et, kanıt sun, hafıza dosyasını oluştur ve bitince tek raporla teslim et. Test edemediğin şeyleri açıkça belirt. Gerekli araçları sen seç, resmi kaynaktan sen kur."
 
 ## 🏗️ 2. Özellik Talebi (Feature Request)
 *Mevcut bir projeye yeni bir şey ekletirken kullanılır.*
@@ -43,7 +43,7 @@ Kopyala-yapıştır yaparak kullanabileceğiniz, optimize edilmiş başlangıç 
 > 3. Diğer özellikleri bozmadan nasıl yapacağına dair bir PLAN hazırla.
 > 4. Kurulum gerektiren yeni bir araç varsa belirt.
 >
-> Planı onaylamadan kod yazma **(Rehber modda)**; otonom modda planı sen yap, onay bekleme."
+> Planı onaylamadan kod yazma **(Rehber modda)**; otonom modda planı sen yap, onay bekleme. Kurulumları da sen yap."
 
 ## 🐛 3. Hata Bildirimi (Bug Reporting)
 *"Çalışmıyor" dememek için bu yapıyı kullanın.*
