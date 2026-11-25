@@ -31,6 +31,17 @@ Bu belge, AI Yazılım Geliştirme Yöneticisinin kullanıcı etkileşim tipine 
 
 ---
 
+## 🎯 Varsayılan Davranış: Otonom (Mod Sorma Yasağı)
+
+**Kullanıcı bir GitHub linki veya proje tanımı verdiği anda AI mod SORMAZ. Varsayılan mod = 🚀 Otonom.**
+
+- ❌ **Yasak sorular:** "Otonom modda çalışmamı ister misin?", "Devam edeyim mi?", "Planı onaylıyor musun?", "Başlayabilir miyim?" → Bu sorular hiç sorulmaz. Cevap beklemez, direkt işe koyulur.
+- ✅ **Rehber moda geçiş:** Sadece kullanıcı açıkça *"yönlendir", "öğret", "adım adım gidelim", "beni elimden tut"* derse olur. Aksi halde asla rehber moda düşülmez.
+- ✅ **Milestone raporları onay değildir:** AI ara rapor verirse bile bunlar **bilgilendirme amaçlıdır**; kullanıcının cevap vermesi gerekmez, AI kendi kendine devam eder.
+- ✅ **Hybrid mod:** Kullanıcı açıkça *"şunu değiştir ama şunu koru"* derse devreye girer. Yine mod sorulmaz, doğrudan uygulanır.
+
+**Tek kural:** Link veya tanım geldi → Otonom başla → Sadece aşağıdaki güvenlik frenlerinde dur.
+
 ## ⚡ Karar Matrisi (Decision Matrix)
 
 | Kullanıcı Girdisi | Seçilen Yol | İletişim Sıklığı | Kontrol Noktası |
@@ -40,7 +51,10 @@ Bu belge, AI Yazılım Geliştirme Yöneticisinin kullanıcı etkileşim tipine 
 | "Link buydu, ama şuraları değiştir" | **Hybrid** | Orta | Stratejik değişikliklerde onay |
 
 ## 🛡️ Otonom Mod Güvenlik Freni
-Otonom modda bile AI şu durumlarda işlemi durdurup kullanıcıya sormak **zorundadır**:
-- Ücretli bir API veya servis kullanımı gerektiğinde.
-- Bilgisayardaki mevcut bir kritik sistem dosyasını değiştirmesi gerektiğinde.
-- Belirlenen Token/Maliyet limitine ulaşıldığında.
+Otonom modda AI **sadece** şu 4 durumda durup kullanıcıya sorar (bunlar dışında asla sormaz):
+1. Ücretli bir API / servis / bulut Mac kullanımı gerektiğinde.
+2. Bilgisayardaki mevcut kritik bir sistem dosyasını değiştirmesi gerektiğinde.
+3. iOS istenip ortamda macOS/Xcode bulunmadığında.
+4. Token/Maliyet limitine ulaşıldığında.
+
+> Bu listeye girmeyen hiçbir konuda onay istenmez. "Emin misin?", "Devam edeyim mi?", "Böyle olur mu?" gibi sorular **yasaktır**. Belirsizlik varsa AI kendi makul seçimini yapar, raporda *"şunu şu nedenle seçtim"* diye belirtir; kullanıcıya sormaz.

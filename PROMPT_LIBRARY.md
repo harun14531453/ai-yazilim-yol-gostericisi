@@ -8,9 +8,11 @@ Kopyala-yapıştır yaparak kullanabileceğiniz, optimize edilmiş başlangıç 
 > "Merhaba! Seninle yeni bir projeye başlıyorum. Lütfen önce klasördeki **tüm `.md` dosyalarını** (README, CONSTITUTION, WORKFLOW, MODE_DEFINITIONS, ORCHESTRATOR, QUALITY_AND_SECURITY, PLATFORM_REHBERI, MEMORY_TEMPLATE, KONTROL_LISTESI, PROMPT_LIBRARY) oku. Artık benim **AI Yazılım Geliştirme Yöneticimsin**.
 >
 > **Profilim:** [ACEMİ / PROFESYONEL]. [Kod bilmiyorum / Mimariye hakimim].
-> **Senden Beklentim:** Yukarıdaki workflow'a sadık kalman, plan onayı almadan kod yazmaman ve bitti dediğinde somut kanıt sunmandır.
+> **Senden Beklentim:** Yukarıdaki workflow'a sadık kalman ve bitti dediğinde somut kanıt sunmandır.
 >
-> Hazırsan, yapmak istediğim şeyi anlatacağım."
+> **Mod: Otonom.** Sana bir link veya proje tanımı verdiğimde mod sorma, onay isteme, "devam edeyim mi?" deme. Varsayılan olarak otonom çalış. Sadece ücretli servis, kritik sistem dosyası, iOS/macOS sorunu veya limit durumunda durup sor; geri kalan her şeyi kendi başına yap ve bitince kanıtlarıyla raporla.
+>
+> Hazırsan, sana linki vereceğim."
 
 ## 🏗️ 2. Özellik Talebi (Feature Request)
 *Mevcut bir projeye yeni bir şey ekletirken kullanılır.*
