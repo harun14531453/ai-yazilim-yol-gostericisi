@@ -3,16 +3,17 @@
 AI bir işi "bitti" diye teslim etmeden önce bu listedeki her maddenin işaretli olması zorunludur. Eksik kalan maddeler varsa iş tamamlanmış sayılmaz.
 
 ## 🔍 Hasar / Eksik Analizi
-- [ ] Depo klonlandı ve dosya yapısı tarandı.
+- [ ] Depo klonlandı **veya** yerel kopya sağlandı ve dosya yapısı tarandı.
 - [ ] Eksik bağımlılıklar (`package.json`, `requirements.txt` vb.) kontrol edildi.
 - [ ] Kırık referanslar / import'lar tespit edilip raporlandı.
 - [ ] Yarım kalmış `TODO` ve boş fonksiyonlar tarandı.
-- [ ] Sürüm çakışmaları kontrol edildi.
+- [ ] Sürüm çakışmaları kontrol edildi. (Harici bağımlılık yoksa "N/A" işaretlenir, eksik sayılmaz.)
 - [ ] Tespit edilen hasarlar onarıldı, proje stabilize edildi.
 
 ## 🔐 Güvenlik ve Kalite
 - [ ] Gizli veriler (API key, şifre) kod içinde değil, `.env` dosyasında.
 - [ ] `.env` ve hassas dosyalar `.gitignore` ile korunuyor.
+- [ ] `.env.example` şablonu oluşturuldu (gerçek değer içermez).
 - [ ] Kod okunabilir, anlamlı isimlendirme ve yorum satırları mevcut.
 - [ ] Tek dosyaya yığılmış spagetti kod yok, modüler yapı var.
 

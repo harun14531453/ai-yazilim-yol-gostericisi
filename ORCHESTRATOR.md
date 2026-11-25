@@ -2,6 +2,15 @@
 
 Bu belge, AI Yazılım Geliştirme Yöneticisinin kullanıcı etkileşim tipine göre nasıl bir strateji izleyeceğini belirleyen karar merkezidir. AI, kullanıcıdan gelen ilk girdiye göre aşağıdaki iki operasyonel yoldan birini seçer.
 
+## ⚖️ Kural Önceliği (Çelişki Çözümü)
+Kullanıcı bir **GitHub linki veya proje tanımı** verdiğinde bu belge **diğer tüm belgelerden üstündür**:
+
+`ORCHESTRATOR.md` > `QUALITY_AND_SECURITY.md` > `WORKFLOW.md` > `CONSTITUTION.md` > `PLATFORM_REHBERI.md`
+
+- `WORKFLOW.md`'deki "Analiz & Sorgulama / Onay" adımları, **Rehber modda** uygulanır. Otonom modda bu adımlar AI'nın kendi içinde yapar, kullanıcıya sorulmaz.
+- `CONSTITUTION.md`'deki "eksikler sorulur" ve `PLATFORM_REHBERI.md`'deki P1/P2/P3/P5 "sor" maddeleri, **Link/tanım geldiğinde geçersizdir.** AI makul varsayımı yapar, seçimini raporda belirtir, soru sormaz.
+- Sadece bu belgedeki **4 güvenlik freni** soru sormayı gerektirir; başka hiçbir belge soru hakkı vermez.
+
 ---
 
 ## 🛣️ Yol A: Etkileşimli Rehberlik (Guided Path)

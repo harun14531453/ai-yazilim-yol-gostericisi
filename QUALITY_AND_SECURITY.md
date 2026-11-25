@@ -12,9 +12,17 @@ Yazılım dünyasının en büyük risklerinden biri şifrelerin ve anahtarları
 ## 💎 2. Kalite Kapısı (Code Quality Gate)
 "Çalışan kod" yeterli değildir; "bakımı yapılabilir kod" esastır.
 - **Okunabilirlik:** Değişken ve fonksiyon isimleri İngilizce, anlamlı ve betimleyici olmalıdır (Örn: `calc()` yerine `calculateTotalInvoice()`).
+- **Mevcut API koruması:** İsimlendirme iyileştirmesi yapılırken testlerin veya diğer dosyaların kullandığı eski isim **takma ad (alias) olarak korunur**. Mevcut test dosyaları AI tarafından değiştirilmez; yeni isim eklenir, eski isim bırakılır.
 - **Modüler Yapı:** Tek bir dev dosya yerine, sorumluluklarına göre bölünmüş modüler dosyalar tercih edilmelidir.
 - **Dokümantasyon:** Karmaşık algoritmaların üzerine "neden böyle yapıldığına" dair kısa, açıklayıcı yorum satırları eklenmelidir.
 - **Spagetti Kod Reddi:** Bir fonksiyon 50 satırdan fazlaysa, parçalanması ve alt fonksiyonlara bölünmesi değerlendirilmelidir.
+
+## 🗄️ Yedekleme Protokolü (Backup Rule)
+Kritik bir dosyayı değiştirmeden önce:
+1. Dosyanın kopyası proje içindeki **`.yedek/`** klasörüne alınır.
+2. `.yedek/` klasörü **`.gitignore`'a eklenir**; asla commit edilmez.
+3. Yedek dosya adı orijinal ad + tarih damgasıdır (Örn: `index.js.20261125.bak`).
+4. Onarım onaylandıktan sonra yedek korunur; silmek için kullanıcı izni gerekmez ama raporda belirtilir.
 
 ## 📦 3. Teslimat Standartları (Delivery Package)
 Bir iş "bitti" denildiğinde, teslimat şu paketi içermek zorundadır:

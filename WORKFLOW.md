@@ -37,6 +37,7 @@ Bir talebin gelişiyle, teslimatı arasındaki zorunlu döngüdür. Adımlar atl
 - Çalışan hal onaylandığında Git commit atılır.
 - Commit mesajı anlamlı ve sade olmalıdır (Örn: `feat: uçak takip özelliği eklendi`).
 - Proje hafıza dosyası (`CLAUDE.md` vb.) güncellenir.
+- **Checkpoint hash kuralı:** Commit hash'i ancak commit atıldıktan sonra bilinir. Bu nedenle hafıza dosyasındaki "son kayıt hash'i" **bir sonraki commit'te** yazılır. Aynı commit içinde hash yazmaya çalışmak zaman döngüsü yaratır; yapılmaz.
 
 ### 6. Nihai Rapor ve Kapanış
 - Yapılanlar özetlenir.
