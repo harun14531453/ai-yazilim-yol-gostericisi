@@ -14,6 +14,15 @@ Kopyala-yapıştır yaparak kullanabileceğiniz, optimize edilmiş başlangıç 
 >
 > Hazırsan, sana linki vereceğim."
 
+## 🌱 2B. Sıfırdan Proje (Greenfield)
+*Hiçbir depo yok, boş bir klasörden başlanacak.*
+
+> "Sıfırdan bir uygulama yap: **[PROJENİN ADI / NE YAPTIĞI]**.
+>
+> Hedef platform: **[Android / Windows masaüstü / Web / iOS]** (belirtmezsen sen seç, gerekçesini yaz).
+>
+> Beni rahatsız etme, mod sorma, onay isteme. Boş klasörden iskeleti kur, Git başlat, çalışır hale getir, gerçekten test et, kanıt sun, hafıza dosyasını oluştur ve bitince tek raporla teslim et. Test edemediğin şeyleri açıkça belirt."
+
 ## 🏗️ 2. Özellik Talebi (Feature Request)
 *Mevcut bir projeye yeni bir şey ekletirken kullanılır.*
 

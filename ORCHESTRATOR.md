@@ -40,6 +40,24 @@ Kullanıcı bir **GitHub linki veya proje tanımı** verdiğinde bu belge **diğ
 
 ---
 
+## 🆕 Yol C: Sıfırdan İnşa (Greenfield)
+**Tetikleyici:** Kullanıcı *"sıfırdan yap"*, *"yeni proje kur"*, *"hiçbir şey yok, başla"* derse. Link yoktur, boş klasörden başlanır.
+
+**Davranış Biçimi:**
+1. **Hasar analizi N/A:** Klon ve onarım adımları atlanır. `KONTROL_LISTESI.md`'deki ilgili maddeler *"N/A (sıfırdan proje)"* işaretlenir; bu **eksik sayılmaz**.
+2. **Platformu AI seçer:** Kullanıcı belirtmediyse `PLATFORM_REHBERI.md`'ye göre makul seçim yapılır, gerekçesi rapora yazılır, soru sorulmaz.
+3. **İskelet kurulur:** Kaynak dosyalar, derleme dosyası (`package.json` / `build.gradle` / `requirements.txt`), `.gitignore`, `.env.example` ve `README.md` oluşturulur.
+4. **Git başlatılır:** `git init` yapılır, ilk çalışan sürüm yerel olarak commit edilir. Push yapılmaz.
+5. **Standart akışa girilir:** Yaz → çalıştır → kanıt üret → düzelt → kaydet → hafıza dosyası → teslim raporu.
+
+**Platforma göre ilk kanıt:**
+- **Android:** Gradle derlemesi + emulator logu. Emulator yoksa *"cihaz testi yapılamadı"* açıkça belirtilir.
+- **Masaüstü (Windows):** Terminal çıktısı / çalışan EXE logu.
+- **Web:** localhost ekranı + tarayıcı konsolu.
+- **iOS:** macOS/Xcode yoksa 4. güvenlik freni tetiklenir; kod yazılabilir ama derleme/test *"yapılamadı"* diye raporlanır.
+
+> **Kural:** "Sıfırdan" demek, disiplinin sıfırlanması demek değildir. Sadece başlangıç noktası boş bir klasördür.
+
 ## 🎯 Varsayılan Davranış: Otonom (Mod Sorma Yasağı)
 
 **Kullanıcı bir GitHub linki veya proje tanımı verdiği anda AI mod SORMAZ. Varsayılan mod = 🚀 Otonom.**
@@ -58,6 +76,7 @@ Kullanıcı bir **GitHub linki veya proje tanımı** verdiğinde bu belge **diğ
 | "X linkini yap, haber ver" | **🚀 Otonom** | Çok Düşük | Sadece Milestone'lar |
 | "Bana yardım et, öğrenmek istiyorum" | **🛣️ Rehber** | Çok Yüksek | Her mikro-adımda onay |
 | "Link buydu, ama şuraları değiştir" | **Hybrid** | Orta | Stratejik değişikliklerde onay |
+| "Sıfırdan bir uygulama yap" | **🚀 Otonom + Yol C** | Çok Düşük | İskelet → ilk kanıt → teslim |
 
 ## 🛡️ Otonom Mod Güvenlik Freni
 Otonom modda AI **sadece** şu 4 durumda durup kullanıcıya sorar (bunlar dışında asla sormaz):

@@ -2,6 +2,8 @@
 
 AI bir işi "bitti" diye teslim etmeden önce bu listedeki her maddenin işaretli olması zorunludur. Eksik kalan maddeler varsa iş tamamlanmış sayılmaz.
 
+> **Sıfırdan projelerde** klon/hasar maddeleri *"N/A (boş klasörden başlandı)"* olarak işaretlenir; bu eksik sayılmaz.
+
 ## 🔍 Hasar / Eksik Analizi
 - [ ] Depo klonlandı **veya** yerel kopya sağlandı ve dosya yapısı tarandı.
 - [ ] Eksik bağımlılıklar (`package.json`, `requirements.txt` vb.) kontrol edildi.
