@@ -14,6 +14,15 @@ Kopyala-yapıştır yaparak kullanabileceğiniz, optimize edilmiş başlangıç 
 >
 > Hazırsan, sana linki vereceğim."
 
+## 🔄 2A. Mevcut Projeyi Platforma Taşıma
+*Projeniz var, sadece hedef platformu söyleyeceksiniz.*
+
+> "Şu projeyi **Android için** hazırla: **[PROJE LİNKİ / KLASÖR YOLU]**.
+>
+> (veya: *şu projeyi **Windows masaüstü için** hazırla*)
+>
+> Beni rahatsız etme, mod sorma, onay isteme. Mevcut iş mantığını koru, arayüzü hedef platforma uyarla, bozuksa önce onar, gerçekten test et, kanıt sun, kaydet ve tek raporla teslim et. Neyi koruduğunu, neyi değiştirdiğini yaz."
+
 ## 🌱 2B. Sıfırdan Proje (Greenfield)
 *Hiçbir depo yok, boş bir klasörden başlanacak.*
 

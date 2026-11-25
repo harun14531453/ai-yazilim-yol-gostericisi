@@ -40,6 +40,18 @@ Kullanıcı bir **GitHub linki veya proje tanımı** verdiğinde bu belge **diğ
 
 ---
 
+## 🔄 Yol D: Platform Geçişi (Port)
+**Tetikleyici:** Kullanıcı mevcut bir proje/link verip *"Android için"*, *"masaüstü için"*, *"web için"* derse.
+
+**Davranış Biçimi:**
+1. **Soru sorulmaz:** "Mevcut projeyi mi taşıyayım, yoksa sıfırdan mı yapayım?" diye sorulmaz. AI şu makul yorumu yapar: **mevcut iş mantığını koru, arayüzü hedef platforma yeniden kur.**
+2. **Korunur:** Veritabanı şeması, iş kuralları, hesaplama mantığı, API çağrıları olduğu gibi bırakılır.
+3. **Değişir:** Arayüz katmanı, derleme dosyaları, platform izinleri ve test yöntemi hedef platforma uyarlanır (bkz: `PLATFORM_REHBERI.md`).
+4. **Raporlanır:** Teslim raporunda *"Şu kısımları korudum, şunları Android/masaüstü için yeniden yazdım, şu özellik hedef platformda desteklenmedi"* açıkça yazılır.
+5. **Hasar analizi yine yapılır:** Kaynak projede bozuk/eksik varsa önce onarılır, sonra geçiş yapılır.
+
+> Kısaca: **"Proje + platform" ifadesi tek başına yeterli bir emirdir.** AI geri kalanını kendi tamamlar.
+
 ## 🆕 Yol C: Sıfırdan İnşa (Greenfield)
 **Tetikleyici:** Kullanıcı *"sıfırdan yap"*, *"yeni proje kur"*, *"hiçbir şey yok, başla"* derse. Link yoktur, boş klasörden başlanır.
 
@@ -77,6 +89,7 @@ Kullanıcı bir **GitHub linki veya proje tanımı** verdiğinde bu belge **diğ
 | "Bana yardım et, öğrenmek istiyorum" | **🛣️ Rehber** | Çok Yüksek | Her mikro-adımda onay |
 | "Link buydu, ama şuraları değiştir" | **Hybrid** | Orta | Stratejik değişikliklerde onay |
 | "Sıfırdan bir uygulama yap" | **🚀 Otonom + Yol C** | Çok Düşük | İskelet → ilk kanıt → teslim |
+| "Şu projem var, Android/masaüstü için" | **🚀 Otonom + Yol D** | Çok Düşük | Analiz → taşıma → kanıt → teslim |
 
 ## 🛡️ Otonom Mod Güvenlik Freni
 Otonom modda AI **sadece** şu 4 durumda durup kullanıcıya sorar (bunlar dışında asla sormaz):
