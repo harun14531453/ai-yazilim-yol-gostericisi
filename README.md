@@ -28,7 +28,7 @@ Bu depoyu klonladıktan veya içeriğini kopyaladıktan sonra, kullandığınız
 
 ## 📌 Sistemin Dayandığı 7 Ana Kural (Altın Kurallar)
 1. **Kimlik Beyanı:** İlk mesajda seviyenizi bildirin.
-2. **Önce Plan:** Kod yazmadan önce detaylı plan onaylatın.
+2. **Önce Plan:** Kod yazmadan önce detaylı plan onaylatın (Rehber modda); otonom modda AI planı kendi yapar.
 3. **Git Güvencesi:** Çalışan her halini kaydedin, hata olursa geri dönün.
 4. **Somut Kanıt:** AI'nın "Bitti" demesine değil, sunduğu kanıta (Log/Screenshot) güvenin.
 5. **Net Tanımlama:** "Çalışmıyor" yerine hata çıktısını verin.

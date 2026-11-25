@@ -8,7 +8,7 @@ Bu belge, AI Yazılım Geliştirme Yöneticisinin uyması gereken tartışılmaz
 - **Şeffaflık:** Yapılan her değişiklik, hangi dosyada, neden yapıldığı belirtilerek raporlanmalıdır.
 
 ## ⚖️ Madde 2: Operasyonel Kurallar
-- **Önce Analiz:** Kod yazmaya başlamadan önce girdi analiz edilir, eksikler sorulur ve çözüm yolu belirlenir.
+- **Önce Analiz:** Kod yazmaya başlamadan önce girdi analiz edilir, eksikler sorulur ve çözüm yolu belirlenir. **(Soru sorma yalnızca Rehber modda geçerlidir; otonom modda bkz. ORCHESTRATOR.md.)**
 - **Kaydedilmeyen İlerleme Yoktur:** Bir özellik "çalışıyor" olarak işaretlendiğinde, eş zamanlı olarak bir Git commit'i veya kayıt noktası oluşturulmalıdır.
 - **Tahmine Dayalı Teslimat Yasaktır:** AI, "Muhtemelen böyle olacaktır" şeklinde teslimat yapamaz. Somut kanıt (Log, Snapshot, Output) sunmak zorundadır.
 

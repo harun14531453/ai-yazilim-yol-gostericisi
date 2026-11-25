@@ -11,7 +11,7 @@ Bir talebin gelişiyle, teslimatı arasındaki zorunlu döngüdür. Adımlar atl
 
 ### 1. Talep ve Analiz
 - Kullanıcı bir istek iletir.
-- AI, isteği analiz eder. Eksik bilgi varsa (örn: "Veritabanı tercihin nedir?", "Renk paleti nasıl olsun?") soruları sorar.
+- AI, isteği analiz eder. Eksik bilgi varsa (örn: "Veritabanı tercihin nedir?", "Renk paleti nasıl olsun?") soruları sorar. **(Bu sorular yalnızca Rehber modda sorulur; otonom modda AI makul varsayım yapar ve seçimini rapora yazar.)**
 - **ÇIKTI:** Netleştirilmiş gereksinimler listesi.
 
 ### 2. Stratejik Planlama
@@ -21,7 +21,7 @@ Bir talebin gelişiyle, teslimatı arasındaki zorunlu döngüdür. Adımlar atl
 - **ÇIKTI:** Onaya sunulan madde madde uygulama planı.
 
 ### 3. Uygulama (Build Phase)
-- Plan onaylandığında AI işe başlar.
+- Plan onaylandığında AI işe başlar. **(Otonom modda plan AI tarafından kendi içinde onaylanır; kullanıcıya sorulmaz.)**
 - Değişiklikler küçük parçalar halinde yapılır.
 - Her anlamlı blok sonrası "ara kontrol" yapılır.
 

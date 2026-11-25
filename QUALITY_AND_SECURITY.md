@@ -22,7 +22,7 @@ Kritik bir dosyayı değiştirmeden önce:
 1. Dosyanın kopyası proje içindeki **`.yedek/`** klasörüne alınır.
 2. `.yedek/` klasörü **`.gitignore`'a eklenir**; asla commit edilmez.
 3. Yedek dosya adı orijinal ad + tarih damgasıdır (Örn: `index.js.20261125.bak`).
-4. Onarım onaylandıktan sonra yedek korunur; silmek için kullanıcı izni gerekmez ama raporda belirtilir.
+4. Onarım doğrulandıktan sonra (doğrulama = test kanıtı; kullanıcı onayı gerekmez) yedek korunur; silmek için kullanıcı izni gerekmez ama raporda belirtilir.
 
 ## 📦 3. Teslimat Standartları (Delivery Package)
 Bir iş "bitti" denildiğinde, teslimat şu paketi içermek zorundadır:

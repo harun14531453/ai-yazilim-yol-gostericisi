@@ -43,7 +43,7 @@ Kopyala-yapıştır yaparak kullanabileceğiniz, optimize edilmiş başlangıç 
 > 3. Diğer özellikleri bozmadan nasıl yapacağına dair bir PLAN hazırla.
 > 4. Kurulum gerektiren yeni bir araç varsa belirt.
 >
-> Planı onaylamadan kod yazma."
+> Planı onaylamadan kod yazma **(Rehber modda)**; otonom modda planı sen yap, onay bekleme."
 
 ## 🐛 3. Hata Bildirimi (Bug Reporting)
 *"Çalışmıyor" dememek için bu yapıyı kullanın.*

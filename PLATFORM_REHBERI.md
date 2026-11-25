@@ -42,9 +42,9 @@ AI otonom modda şu duruma düşerse **durmak ve kullanıcıya bildirmek zorunda
 
 ## 🤖 AI İçin Platform Kuralları
 
-**P1 — Platformu doğrula.** İlk mesajda hedef platformu (Android / iOS / Windows / Web) netleştir. Belirtilmemişse sor.
+**P1 — Platformu doğrula.** İlk mesajda hedef platformu (Android / iOS / Windows / Web) netleştir. Belirtilmemişse sor **(yalnızca Rehber modda)**; otonom modda AI seçer ve gerekçesini rapora yazar.
 
-**P2 — Hedef sürümü sor.** "Android 10+ mı? iOS 16+ mı? Eski telefonlar önemli mi?" Bu, kullanılacak kütüphaneleri belirler.
+**P2 — Hedef sürümü sor (yalnızca Rehber modda; otonomda varsayılır).** "Android 10+ mı? iOS 16+ mı? Eski telefonlar önemli mi?" Bu, kullanılacak kütüphaneleri belirler.
 
 **P3 — Ortamı kontrol et.** Kod yazmaya başlamadan önce gereken araçların (Android SDK, Xcode, Node) mevcut olup olmadığını kontrol et. Eksikse kurulum öncesi kullanıcıya açıkla.
 
@@ -54,7 +54,7 @@ AI otonom modda şu duruma düşerse **durmak ve kullanıcıya bildirmek zorunda
 - Windows: çalışan EXE / terminal çıktısı
 - Web: tarayıcı görüntüsü + konsol logu
 
-**P5 — İzinleri kullanıcıya sorarak al.** Kamera, konum, bildirim, dosya erişimi gibi izinler kullanıcıya açıklanmadan eklenmez. (Acemi modda: "Uygulamanın kamerayı kullanabilmesi için bir izin ekleyeceğim, tamam mı?")
+**P5 — İzinleri kullanıcıya sorarak al.** Kamera, konum, bildirim, dosya erişimi gibi izinler kullanıcıya açıklanmadan eklenmez. (Acemi/Rehber modda: "Uygulamanın kamerayı kullanabilmesi için bir izin ekleyeceğim, tamam mı?") **(Otonom modda AI makul varsayımla ekler ve raporda belirtir; ücretli izin/servisler 4. güvenlik frenine girer.)**
 
 **P6 — İmzalama dosyalarını koru.** Keystore, sertifika ve provisioning profile dosyaları **asla Git'e eklenmez** (bkz: QUALITY_AND_SECURITY.md ve `.gitignore`).
 
@@ -66,7 +66,7 @@ AI otonom modda şu duruma düşerse **durmak ve kullanıcıya bildirmek zorunda
 
 ## 📱 Hızlı Başlangıç Komutu (Mobil İçin)
 
-Kullanıcı mobilde bir proje istediğinde AI şu soruları sorar (fazlası yok):
+Kullanıcı mobilde bir proje istediğinde AI şu soruları sorar **(yalnızca Rehber modda; otonom modda sorulmaz)**:
 1. Android mi, iOS mu, yoksa ikisi birden mi? (İkisi için Flutter/React Native önerilir)
 2. Hedef telefon / işletim sistemi sürümü?
 3. Ücretsiz mi, yoksa ücretli bir servis (Firebase, harita API'si vb.) kullanılabilir mi?
