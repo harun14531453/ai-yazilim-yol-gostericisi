@@ -9,6 +9,12 @@ AI bir işi "bitti" diye teslim etmeden önce bu listedeki her maddenin işaretl
 - "Test edilemeyen özellikler açıkça belirtildi" maddesi, kanıtlanmış bir sınır olarak teslimi geçerli kılar; **ancak** raporun başlığı *"Kısmi teslim"* olur, *"Tamamlandı"* değil.
 - Yapılamayan bir işi yapılmış gibi anlatmak (EXE hazır, test edildi vb.) **halüsinasyondur ve yasaktır.** Sınırı açıkça söylemek her zaman daha iyidir.
 
+## 📖 Kural Okuması
+- [ ] Klasördeki tüm `.md` dosyaları listelendi.
+- [ ] Her dosya tek tek okundu.
+- [ ] "Okunan dosyalar" listesi raporda kanıt olarak yazıldı.
+- [ ] Okunamayan/eksik dosya varsa açıkça belirtildi.
+
 ## 🔍 Hasar / Eksik Analizi
 - [ ] Depo klonlandı **veya** yerel kopya sağlandı ve dosya yapısı tarandı.
 - [ ] Eksik bağımlılıklar (`package.json`, `requirements.txt` vb.) kontrol edildi.

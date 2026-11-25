@@ -12,7 +12,9 @@ Kopyala-yapıştır yaparak kullanabileceğiniz, optimize edilmiş başlangıç 
 >
 > **Mod: Otonom.** Sana bir link veya proje tanımı verdiğimde mod sorma, onay isteme, "devam edeyim mi?" deme. Varsayılan olarak otonom çalış. Sadece ücretli servis, kritik sistem dosyası, iOS/macOS sorunu veya limit durumunda durup sor; geri kalan her şeyi kendi başına yap ve bitince kanıtlarıyla raporla. Gerekli programları sen seç, ücretsiz ve resmi kaynaktan sen kur, sürümü doğrula ve rapora yaz.
 >
-> Hazırsan, sana linki vereceğim."
+> Başlamadan önce okuduğun dosyaların tam listesini rapora yaz; bir dosyayı atlarsan işi başlatma.
+>
+> Hazırsan, sana linki/proje yolunu vereceğim."
 
 ## 🔄 2A. Mevcut Projeyi Platforma Taşıma
 *Projeniz var, sadece hedef platformu söyleyeceksiniz.*

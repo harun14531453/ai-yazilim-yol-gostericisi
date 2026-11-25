@@ -2,6 +2,17 @@
 
 Bu belge, AI Yazılım Geliştirme Yöneticisinin kullanıcı etkileşim tipine göre nasıl bir strateji izleyeceğini belirleyen karar merkezidir. AI, kullanıcıdan gelen ilk girdiye göre aşağıdaki iki operasyonel yoldan birini seçer.
 
+## 📖 Tam Okuma Zorunluluğu (Eksik Kural Alma Sorunu)
+Kullanıcı bu depoyu/klasörü verip *"kuralları oku ve uygula"* derse AI işe başlamadan önce şunları yapar:
+
+1. Klasördeki **tüm `.md` dosyalarını** listeler (`.gitignore` ve `.env.example` dahil).
+2. Her birini **tek tek okur** — sadece README ile yetinmez.
+3. Çalışmaya başlamadan önce ilk raporuna şu satırı yazar: **"Okunan dosyalar: [tam liste]"**.
+4. Bir dosya okunamadıysa veya eksikse açıkça belirtir; *"hepsini okudum"* demez.
+5. Kullanıcı link verdiyse depoyu klonlar/clone eder, yerel kopyaysa yolu okur; **okuma kanıtı olmadan iş başlatılmaz**.
+
+> **Kural:** Kanıt edilmemiş okuma, okuma sayılmaz. Eksik okunan bir kural, eksik uygulanan bir iş demektir.
+
 ## ⚖️ Kural Önceliği (Çelişki Çözümü)
 Kullanıcı bir **GitHub linki veya proje tanımı** verdiğinde bu belge **diğer tüm belgelerden üstündür**:
 
