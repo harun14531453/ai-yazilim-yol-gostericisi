@@ -1,0 +1,15 @@
+# AI Project Navigator Ignored Files
+node_modules/
+dist/
+build/
+*.exe
+*.dll
+*.so
+.env
+.venv
+venv/
+__pycache__/
+*.log
+.idea/
+.vscode/
+.DS_Store

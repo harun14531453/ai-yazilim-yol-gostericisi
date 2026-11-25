@@ -5,19 +5,34 @@ Bu depo, bir insanın (kod bilse de bilmese de) bir Yapay Zeka (AI) ile çalış
 ## 🎯 Temel Amaç
 AI modelleri (Claude, GPT, Gemini, vb.) güçlüdür ancak "halüsinasyon" görürler veya detayları atlarlar. Bu depo, AI'nın sizi değil, sizin AI'yı yönetmeniz için gereken **disiplini ve metodolojiyi** sağlar.
 
+## 📂 Sistem Mimarisi (Neler Var?)
+Sistem, AI'nın davranışlarını yöneten 11 kritik modülden oluşur:
+
+1.  **📜 `CONSTITUTION.md` (Sistem Anayasası):** AI'nın asla çiğneyemeyeceği temel yasalar.
+2.  **🔄 `WORKFLOW.md` (İş Akışı):** "Talebden Teslimata" kadar olan zorunlu üretim bandı.
+3.  **🎭 `MODE_DEFINITIONS.md` (Kullanıcı Modları):** Acemi ve Profesyonel modları arasındaki davranış farkları.
+4.  **🕹️ `ORCHESTRATOR.md` (Yönlendirme Motoru):** "Rehberlik Mi?" yoksa "Tam Otonom Teslimat Mı?" karar merkezi.
+5.  **🛡️ `QUALITY_AND_SECURITY.md` (Kalite ve Güvenlik):** Hassas veri koruması, kod kalitesi ve **hasarlı/eksik depo analizi protokolü**.
+6.  **🧠 `MEMORY_TEMPLATE.md` (Hafıza Şablonu):** Yeni sohbetlerde sıfırdan başlamamayı sağlayan hafıza yapısı.
+7.  **📚 `PROMPT_LIBRARY.md` (Komut Kitaplığı):** Hızlı başlangıç ve kriz yönetimi için hazır komutlar.
+8.  **✅ `KONTROL_LISTESI.md` (Nihai Kontrol):** "Bitti" demeden önce işaretlenmesi zorunlu teslimat listesi.
+9.  **🔑 `.env.example` + `.gitignore`:** Sır (şifre/anahtar) sızıntısını önleyen güvenlik şablonu.
+10. **📄 `LICENSE.md`:** Herkesin ücretsiz kullanabilmesi için MIT lisansı.
+11. **📖 `README.md` (Klavuz):** Sistemin genel haritası.
+
 ## 🛠️ Nasıl Kullanılır?
 Bu depoyu klonladıktan veya içeriğini kopyaladıktan sonra, kullandığınız AI'ya şu komutu verin:
 
-> *"Sana bir GitHub deposu/dosyaları veriyorum. Bu depodaki `CONSTITUTION.md`, `WORKFLOW.md` ve `MODE_DEFINITIONS.md` dosyalarını oku. Bugünden itibaren benimle tüm iletişiminde ve kod üretim süreçlerinde buradaki kurallara %100 uymanı istiyorum. Sen artık benim **AI Yazılım Geliştirme Yöneticimsin**. Kabul ediyor musun?"*
+> *"Sana bir GitHub deposu/dosyaları veriyorum. Bu depodaki tüm `.md` dosyalarını (Constitution, Workflow, Orchestrator, Quality vb.) oku. Bugünden itibaren benimle tüm iletişiminde ve kod üretim süreçlerinde buradaki kurallara %100 uymanı istiyorum. Sen artık benim **AI Yazılım Geliştirme Yöneticimsin**. Kabul ediyor musun?"*
 
 ## 📌 Sistemin Dayandığı 7 Ana Kural (Altın Kurallar)
-1. **Kimlik Beyanı:** Her yeni projede AI'ya seviyenizi bildirin (Kod bilmiyorum / Profesyonelim).
-2. **Plan Önceliği:** Kod yazmadan önce mutlaka detaylı bir plan hazırlatın ve onaylayın.
-3. **Git Güvencesi:** Çalışan her aşamayı yerel Git ile kaydedin; hata olursa anında geri dönün.
-4. **Somut Kanıt:** AI'nın "Bitti" demesine inanmayın; ekran görüntüsü, log veya test çıktısı isteyin.
-5. **Net Tanımlama:** "Çalışmıyor" demek yerine, hata mesajını veya ekran görüntüsünü paylaşın.
-6. **Yaşayan Hafıza:** `CLAUDE.md` veya `PROJECT_MEMORY.md` dosyasıyla proje geçmişini tutun.
-7. **Temiz Sayfa:** Büyük özellik değişimlerinde veya sohbet uzadığında yeni sohbet açın, hafıza dosyasını okutun.
+1. **Kimlik Beyanı:** İlk mesajda seviyenizi bildirin.
+2. **Önce Plan:** Kod yazmadan önce detaylı plan onaylatın.
+3. **Git Güvencesi:** Çalışan her halini kaydedin, hata olursa geri dönün.
+4. **Somut Kanıt:** AI'nın "Bitti" demesine değil, sunduğu kanıta (Log/Screenshot) güvenin.
+5. **Net Tanımlama:** "Çalışmıyor" yerine hata çıktısını verin.
+6. **Yaşayan Hafıza:** Proje hafıza dosyasıyla sürekliliği sağlayın.
+7. **Temiz Sayfa:** Yeni işler/bölümler için yeni sohbet açın.
 
 ---
-*Bu sistem, yazılım dünyasının en iyi pratiklerini (Agile, GitFlow, TDD) basite indirgeyip AI etkileşimlerine uyarlayarak oluşturulmuştur.*
+*Bu sistem, yazılım dünyasının en iyi pratiklerini AI etkileşimlerine uyarlayarak oluşturulmuştur.*
