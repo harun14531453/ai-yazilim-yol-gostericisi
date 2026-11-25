@@ -25,6 +25,15 @@ Değişen sadece üç şeydir: **kurulum aracı**, **test kanıtının türü** 
 
 ---
 
+## 🖥️ Windows EXE Fallback Kuralı
+Kullanıcı "masaüstü uygulaması" isteyip paketleme aracı kurulumuna izin vermediyse:
+1. EXE üretmeye çalışmaz ve **"EXE hazır" demez.**
+2. Node/Python CLI + `baslat.bat` (veya `.cmd`) başlatıcı ile **çalışır teslimat** yapılır.
+3. Rapor açıkça şunu yazar: *"Gerçek EXE üretilmedi; bunun için paketleyici kurulumu gerekir. Teslim formatı: CLI + başlatıcı."*
+4. Ücretsiz paketleyici önerisi sunulabilir; **izinsiz kurulum yapılmaz**, kurulum isteği kullanıcıya bırakılır.
+
+> Bu fallback, "kanıtsız bitti" yasağının bir parçasıdır: yapılamayan bir şeyi yapılmış gibi göstermektense sınırı açıkça bildirmek esastır.
+
 ## ⚠️ En Kritik Fark: iOS ve macOS Zorunluluğu
 
 Bir iOS uygulamasını **gerçekten derleyip test etmek için macOS + Xcode gerekir.** Windows'ta bu mümkün değildir.

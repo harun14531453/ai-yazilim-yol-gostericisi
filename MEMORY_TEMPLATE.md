@@ -32,6 +32,7 @@ Bu şablon, yeni bir sohbet açıldığında AI'ya verilerek projenin kaldığı
 
 ## 🚩 SON KAYIT NOKTASI (Last Checkpoint)
 - **Git Hash/Tag:** `commit_hash_here`
+- ⚠️ **Etiket:** Bu hash, "son doğrulanmış durum"u değil **"son kayıt noktası"nı** gösterir ve bir commit geride kalabilir (bkz. WORKFLOW.md Checkpoint hash kuralı). İkisini birbirine karıştırma; raporda açıkça ayırt et.
 - **Durum:** [Örn: Login sayfası çalışıyor, DB bağlantısı kuruldu]
 - **Tarih:** [GG/AA/YYYY]
 
