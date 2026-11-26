@@ -47,6 +47,15 @@ Kopyala-yapıştır yaparak kullanabileceğiniz, optimize edilmiş başlangıç 
 >
 > Planı onaylamadan kod yazma **(Rehber modda)**; otonom modda planı sen yap, onay bekleme. Kurulumları da sen yap."
 
+## 🛡️ 2C. Korumalı Araç Yaptırma (Tersine Mühendisliğe Karşı)
+*Ticari veya kapalı kaynak bir araç üretilecekse.*
+
+> "Şu aracı yap: **[AÇIKLAMA]**. Bu ürün **kapalı kaynak / ticari** olacak.
+>
+> `KORUMA_VE_LISANS.md` ve `IS_AKISLARI.md` kurallarını uygula: kaynak kodunu public paylaşma, istemciye gizli anahtar gömme, source map yayınlamama, minify/obfuscate + imza + hash listesi üret, lisans/EULA taslağı hazırla.
+>
+> Beni rahatsız etme; bitince neyi koruduğunu ve kanıtlarını tek raporda yaz. Koruma kesin değil, sadece caydırıcı olduğunu da belirt."
+
 ## 🐛 3. Hata Bildirimi (Bug Reporting)
 *"Çalışmıyor" dememek için bu yapıyı kullanın.*
 

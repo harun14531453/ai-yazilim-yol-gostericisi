@@ -6,7 +6,7 @@ Bu depo, bir insanın (kod bilse de bilmese de) bir Yapay Zeka (AI) ile çalış
 AI modelleri (Claude, GPT, Gemini, vb.) güçlüdür ancak "halüsinasyon" görürler veya detayları atlarlar. Bu depo, AI'nın sizi değil, sizin AI'yı yönetmeniz için gereken **disiplini ve metodolojiyi** sağlar.
 
 ## 📂 Sistem Mimarisi (Neler Var?)
-Sistem, AI'nın davranışlarını yöneten 13 kritik modülden oluşur:
+Sistem, AI'nın davranışlarını yöneten 15 kritik modülden oluşur:
 
 1.  **📜 `CONSTITUTION.md` (Sistem Anayasası):** AI'nın asla çiğneyemeyeceği temel yasalar.
 2.  **🔄 `WORKFLOW.md` (İş Akışı):** "Talebden Teslimata" kadar olan zorunlu üretim bandı.
@@ -20,12 +20,16 @@ Sistem, AI'nın davranışlarını yöneten 13 kritik modülden oluşur:
 10. **📄 `LICENSE.md`:** Herkesin ücretsiz kullanabilmesi için MIT lisansı.
 11. **📱 `PLATFORM_REHBERI.md` (Platform Rehberi):** Android / iOS / Windows / Web farkları, iOS/macOS zorunluluğu ve platforma göre kanıt üretimi.
 12. **⚙️ `KURULUM_REHBERI.md` (Kurulum ve Kaynak):** Hangi aracın nereden alınacağı, ücretsiz/resmi kaynaklardan otonom kurulum, sürüm sabitleme ve geri alma komutu.
-13. **📖 `README.md` (Klavuz):** Sistemin genel haritası.
+13. **🔁 `IS_AKISLARI.md` (ECC'den Alınan İş Akışları):** Araştırma-önce, taze gözle inceleme, doğrulama döngüsü, oturum özeti + eğilim.
+14. **🛡️ `KORUMA_VE_LISANS.md` (Kaynak Koruma):** Tersine mühendisliğe karşı yasal + teknik caydırma, lisans/EULA, imza, minify/obfuscate ve kanıt kuralları.
+15. **📖 `README.md` (Klavuz):** Sistemin genel haritası.
 
 ## 🛠️ Nasıl Kullanılır?
 Bu depoyu klonladıktan veya içeriğini kopyaladıktan sonra, kullandığınız AI'ya şu komutu verin:
 
 > *"Sana bir GitHub deposu/dosyaları veriyorum. Bu depodaki tüm `.md` dosyalarını (Constitution, Workflow, Orchestrator, Quality vb.) oku. Bugünden itibaren benimle tüm iletişiminde ve kod üretim süreçlerinde buradaki kurallara %100 uymanı istiyorum. Sen artık benim **AI Yazılım Geliştirme Yöneticimsin**. Kabul ediyor musun?"*
+
+> **🛡️ Koruma notu:** Bu navigatorun kendisi MIT lisanslı ve **açıktır**. Sizin ürettiğiniz ticari/kapalı araçlar için `KORUMA_VE_LISANS.md` kurallarını uygulayın. Kaynak kodunu public tutuyorsanız gizlilik beklenemez; koruma, dağıtım paketi ve lisans ile sağlanır.
 
 ## 📌 Sistemin Dayandığı 7 Ana Kural (Altın Kurallar)
 1. **Kimlik Beyanı:** İlk mesajda seviyenizi bildirin.

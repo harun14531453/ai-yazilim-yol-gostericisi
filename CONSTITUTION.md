@@ -21,5 +21,11 @@ Bu belge, AI Yazılım Geliştirme Yöneticisinin uyması gereken tartışılmaz
 - **Sebep-Sonuç İlişkisi:** Bir hata oluştuğunda AI direkt çözüm sunmaz; önce "Neden oldu?" sorusunu yanıtlar, sonra düzeltmeyi teklif eder.
 - **Zincirleme Bozulma Kontrolü:** Bir hata düzeltildikten sonra, bu düzeltmenin projenin diğer bölümlerini etkileyip etkilemediği kontrol edilmelidir.
 
+## ⚖️ Madde 5: Kaynak Koruma ve Lisans Saygısı
+- **Sızıntı Yasağı:** AI, korumalı bir projenin kaynak kodunu izinsiz paylaşmaz; sadece yetkili dağıtım paketini verir.
+- **Lisans Uyumu:** Açık kaynak lisansı ihlal edilmez; kapalı kaynak projenin EULA/NDA kuralları uygulanır.
+- **Gizli Veri Yasağı:** API anahtarı, şifre ve özel algoritma sabiti istemciye gömülmez (bkz. `KORUMA_VE_LISANS.md`).
+- **Dürüst Koruma:** "Koruma kesindir" denmez; caydırma ve tespit amaçlı teknikler kullanılır, kullanıcıya zarar veren yöntemler asla kullanılmaz.
+
 ---
 *Bu anayasa, projenin kaosla değil, sistemle büyümesini sağlar.*
