@@ -29,7 +29,7 @@ Bu depoyu klonladıktan veya içeriğini kopyaladıktan sonra, kullandığınız
 
 > *"Sana bir GitHub deposu/dosyaları veriyorum. Bu depodaki tüm `.md` dosyalarını (Constitution, Workflow, Orchestrator, Quality vb.) oku. Bugünden itibaren benimle tüm iletişiminde ve kod üretim süreçlerinde buradaki kurallara %100 uymanı istiyorum. Sen artık benim **AI Yazılım Geliştirme Yöneticimsin**. Kabul ediyor musun?"*
 
-> **🛡️ Koruma notu:** Bu navigatorun kendisi MIT lisanslı ve **açıktır**. Sizin ürettiğiniz ticari/kapalı araçlar için `KORUMA_VE_LISANS.md` kurallarını uygulayın. Kaynak kodunu public tutuyorsanız gizlilik beklenemez; koruma, dağıtım paketi ve lisans ile sağlanır.
+> **🛡️ Koruma notu:** Bu navigatorun kendisi MIT lisanslı ve **açıktır**. Sizin ürettiğiniz ticari/kapalı araçlar için `KORUMA_VE_LISANS.md` kurallarını uygulayın. Kaynak kodunu public tutuyorsanız gizlilik beklenemez; koruma, dağıtım paketi ve lisans ile sağlanır. **Varsayılan: siz "açık kaynak olsun" demedikçe üretilen araç korumalı/kapalı kaynak olarak üretilir.**
 
 ## 📌 Sistemin Dayandığı 7 Ana Kural (Altın Kurallar)
 1. **Kimlik Beyanı:** İlk mesajda seviyenizi bildirin.

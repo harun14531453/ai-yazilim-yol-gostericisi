@@ -50,7 +50,7 @@ Kopyala-yapıştır yaparak kullanabileceğiniz, optimize edilmiş başlangıç 
 ## 🛡️ 2C. Korumalı Araç Yaptırma (Tersine Mühendisliğe Karşı)
 *Ticari veya kapalı kaynak bir araç üretilecekse.*
 
-> "Şu aracı yap: **[AÇIKLAMA]**. Bu ürün **kapalı kaynak / ticari** olacak.
+> "Şu aracı yap: **[AÇIKLAMA]**. Bu ürün **kapalı kaynak / ticari** olacak (açık kaynak demediysem zaten varsayılan korumalı).
 >
 > `KORUMA_VE_LISANS.md` ve `IS_AKISLARI.md` kurallarını uygula: kaynak kodunu public paylaşma, istemciye gizli anahtar gömme, source map yayınlamama, minify/obfuscate + imza + hash listesi üret, lisans/EULA taslağı hazırla.
 >

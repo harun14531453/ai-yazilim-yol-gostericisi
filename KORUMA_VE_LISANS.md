@@ -4,6 +4,16 @@
 
 > ⚠️ **Dürüst başlangıç:** Hiçbir yöntem tersine mühendisliği **tamamen önleyemez**. Hedef; caydırmak, tespit etmek, haklarımızı koruyacak kanıtı üretmek ve maliyeti yükseltmektir. "Koruma kesindir" demek halüsinasyondur.
 
+## ⚙️ Varsayılan Davranış (Yeni Kural)
+Kullanıcı bir araç isteyip **"açık kaynak olsun" / "MIT lisanslı olsun" / "herkes görebilir"** demediyse, üretilen araç **varsayılan olarak özel/kapalı kaynak** sayılır ve bu dosyadaki koruma katmanı uygulanır.
+
+- **Açıkça açık kaynak istenirse:** Koruma eklenmez, `LICENSE.md` (MIT) kullanılır, kaynak paylaşılabilir.
+- **Belirsiz veya kapalı/ticari:** Temel koruma zorunludur → source map kapalı, istemciye sır yok, lisans/EULA dosyası, private repo uyarısı, hash/checksum listesi.
+- **Tam koruma** (obfuscate, code signing, lisans anahtarı): ürün ücretli/ödeme içeriyorsa veya kullanıcı isterse eklenir.
+- AI rapora şunu yazar: **"Bu araç varsayılan olarak korumalı üretildi. Eklenen korumalar: [...] . Açık kaynak isteseydiniz MIT lisansı kullanılırdı."**
+
+> Bu karar **kullanıcıya sorulmaz** (`ORCHESTRATOR.md` soru yasağı geçerlidir); varsayılır ve raporda kanıtıyla belirtilir.
+
 ---
 
 ## 1. Yasal Katman (En güçlü kalkan)

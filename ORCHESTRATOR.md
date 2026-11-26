@@ -2,6 +2,14 @@
 
 Bu belge, AI Yazılım Geliştirme Yöneticisinin kullanıcı etkileşim tipine göre nasıl bir strateji izleyeceğini belirleyen karar merkezidir. AI, kullanıcıdan gelen ilk girdiye göre aşağıdaki iki operasyonel yoldan birini seçer.
 
+## 🔒 Varsayılan Üretim Modu: Korumalı
+Kullanıcı **"açık kaynak olsun"** demedikçe üretilen her araç **kapalı kaynak** kabul edilir ve `KORUMA_VE_LISANS.md` uygulanır.
+
+- Açıkça açık kaynak istenirse → MIT lisansı, koruma yok.
+- Belirsiz / ticari / kapalı → temel koruma zorunlu (source map kapalı, sır yok, EULA, private repo uyarısı, hash listesi).
+- Karar kullanıcıya **sorulmaz**; varsayılır ve teslim raporunda kanıtıyla yazılır.
+- Bu kural, "mod sorma yasağı"nı değiştirmez; sadece üretim varsayımını belirler.
+
 ## 📖 Tam Okuma Zorunluluğu (Eksik Kural Alma Sorunu)
 Kullanıcı bu depoyu/klasörü verip *"kuralları oku ve uygula"* derse AI işe başlamadan önce şunları yapar:
 
